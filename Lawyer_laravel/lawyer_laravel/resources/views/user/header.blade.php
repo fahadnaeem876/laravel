@@ -1,48 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Lawyer Website</title>
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<meta name="description" content="Lawyer & Attorney One Page HTML Template">
-<meta name="keywords" content="one page, html, template, responsive, business">
-<meta name="author" content="sharjeel anjum">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<!-- Bootstrap css -->
-<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
-
-<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-
-<!-- Fontawesome css -->
-<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
-<link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
-
-<!-- Rev Slider css -->
-<!-- <link rel="stylesheet" href="js/revolution-slider/css/settings.css"> -->
-<link rel="stylesheet" href="{{ asset('js/revolution-slider/css/settings.css') }}">
-
-
-<!-- Magnific-popup css -->
-<!-- <link rel="stylesheet" href="css/magnific-popup.css"> -->
-<link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
-
-
-<!-- Owl Carousel css -->
-<!-- <link rel="stylesheet" href="css/owl.theme.css"> -->
-<link rel="stylesheet" href="{{ asset('css/owl.theme.css') }}">
-
-
-<!-- <link rel="stylesheet" href="css/owl.carousel.css"> -->
-<link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}">
-
-
-<!-- Main css -->
-<!-- <link rel="stylesheet" href="css/style.css"> -->
-<link rel="stylesheet" href="{{ asset('css/style.css') }}">
-
-</head>
-<body>
 
 <div class="navbar custom-navbar" role="navigation">
   <div class="container"> 
@@ -88,32 +44,3 @@
 </div>
 
     
-
-<script src="js/jquery-2.1.4.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-
-<!-- Popup --> 
-<script src="js/jquery.magnific-popup.min.js"></script> 
-<script src="js/magnific-popup-options.js"></script> 
-
-<!-- Carousel --> 
-<script src="js/owl.carousel.js"></script> 
-
-<!-- Sticky Header --> 
-<script src="js/jquery.sticky.js"></script> 
-
-<!-- Revolution Slider --> 
-<script type="text/javascript" src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script> 
-<script type="text/javascript" src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script> 
-
-<!-- Parallax --> 
-<script src="js/jquery.parallax.js"></script> 
-
-<!-- Counter --> 
-<script src="js/counter.js"></script> 
-<script src="js/smoothscroll.js"></script> 
-
-<!-- Custom --> 
-<script src="js/custom.js"></script>
-</body>
-</html>

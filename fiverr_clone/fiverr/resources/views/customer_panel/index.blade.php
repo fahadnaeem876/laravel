@@ -144,6 +144,111 @@
     </div>
     </div>
 
+    <br>
+
+    <div class="container mt-5">
+  <!-- Heading -->
+  <div class="row mb-4">
+    <div class="col-sm-12 text-center">
+      <h2 class=" col text-start">You need it, we've got it</h2>
+    </div>
+  </div>
+  
+  <!-- Services -->
+  <div class="row text-center">
+    <!-- Service 1 -->
+    <div class="col-md-3 mb-">
+      <img src="images/icon_pic.png" alt="Graphics & Desig4n" class="mb-2">
+      <h5 class="text-center text-sm">Graphics & Design</h5>
+    </div>
+    
+    <!-- Service 2 -->
+    <div class="col-md-2 mb-4">
+      <img src="images/icon_pic1.png" alt="Digital Marketing" class="mb-2">
+      <h5 class="text-sm">Digital Marketing</h5>
+    </div>
+    
+    <!-- Service 3 -->
+    <div class="col-md-3 mb-4">
+      <img src="images/icon_pic2.png" alt="Writing & Translation" class="mb-2">
+      <h5 class="text-sm">Writing & Translation</h5>
+    </div>
+
+    <!-- Additional Services -->
+    <div class="col-md-2 mb-4">
+      <img src="images/icon_pic3.png" alt="Writing & Translation" class="mb-2">
+      <h5 class="text-sm">Writing & Translation</h5>
+    </div>
+    
+    <div class="col-md-2 mb-4">
+      <img src="images/icon_pic4.png" alt="Writing & Translation" class="mb-2">
+      <h5 class="text-sm">Writing & Translation</h5>
+    </div>
+
+    <div class="col-md-2 mb-4">
+      <img src="images/icon_pic5.png" alt="Writing & Translation" class="mb-2">
+      <h5 class="text-sm">Writing & Translation</h5>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <img src="images/icon_pic6.png" alt="Writing & Translation" class="mb-2">
+      <h5 class="text-sm">Writing & Translation</h5>
+    </div>
+
+    <div class="col-md-2 mb-4">
+      <img src="images/icon_pic7.png" alt="Writing & Translation" class="mb-2">
+      <h5 class="text-sm">Writing & Translation</h5>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <br>
+      <img src="images/icon_pic8.png" alt="Writing & Translation" class="mb-2">
+      <h5 class="text-sm">Writing & Translation</h5>
+    </div>
+
+    <div class="col-md-2 mb-4">
+      <img src="images/icon_pic9.png" alt="Writing & Translation" class="mb-2">
+      <h5 class="text-sm">Writing & Translation</h5>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="container-fluid bg_color mt-5">
+  <div class="container">
+
+  <div class="row">
+    <div class="col home_con mt-5">
+      <h1 class="fs-2 mb-4"><b>fiverr</b> <span class="custom_home_con"> Business Solution</span></h1>
+      <h1 class="mb-4">Advanced solutions and professional talent for &nbsp; businesses</h1>
+      <h4 class="fs-5 home_con_h">Fiverr Pro</h4>
+      <p class="col-9"><i class="far fa-check-circle"></i> &nbsp;Access top freelancers and professional business tools for any project</p>
+      <h4 class="fs-5 home_con_h">Fiverr Certified</h4>
+      <p class="col-9"><i class="far fa-check-circle"></i> &nbsp;Build your own branded marketplace of certified experts</p>
+      <h4 class="fs-5 home_con_h">Fiverr Enterprise</h4>
+      <p class="col-9"><i class="far fa-check-circle"></i> &nbsp;Manage your freelance workforce and onboard additional talent with an end-to-end SaaS solution</p>
+      <a class="btn btn-primary" href="#">Learn more</a>
+    </div>
+    <div class="col mt-5">
+  <img class="mt-5" src="images/home_con1.png" alt="">
+</div>
+  </div>
+  </div>
+
+</div>
+
+<br>
+<div class="container-fluid">
+
+<div class="container">
+  
+</div>
+</div>
+
+<div class="container">
+
+
+</div>
 
 
   <script src="{{ asset('js/script.js') }}"></script>

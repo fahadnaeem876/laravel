@@ -1,0 +1,73 @@
+.containerr{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item{
+    margin: 10px 0px 10px 0px;
+    width: 24%;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+.p{
+    text-align: justify;
+}
+
+.btn{
+    margin: 30px 0px 10px 0px;
+}
+
+.btn a {
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 10px 30px 10px 30px;
+    background-color: gray;
+    color: white;
+}
+
+.btn a:hover{
+    background-color: transparent;
+    color: gray;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    .item{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .container{
+        width: 100%;
+    }
+    
+    .item{
+        width: 45%;
+    }
+}
+
+
+@media screen and (max-width: 480px)
+{
+    .container{
+        width: 100%;
+    }
+    
+    .item{
+        width: 100%;
+    }
+}

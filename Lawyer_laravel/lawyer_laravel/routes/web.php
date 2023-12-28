@@ -22,24 +22,8 @@ Route::get('/all_lawyer', [homecontroller::class,'all_lawyer']);
 Route::get('/book_appoint', [homecontroller::class,'book_appoint']); 
 Route::get('/my_profile', [homecontroller::class,'my_profile']); 
   
+
+
 Route::get('/login', function () {
-    session()->put('user_id',1);
-    return view('welcome');
-});
-Route::get('/logout', function () {
-    session()->forget('user_id',1);
-    return view('welcome');
-});
-
-Route::get('/mypage',[homecontroller::class,'mypage'])->Middleware('guard');
-
-
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified'
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
+    return view('admin.admin_login');
 });

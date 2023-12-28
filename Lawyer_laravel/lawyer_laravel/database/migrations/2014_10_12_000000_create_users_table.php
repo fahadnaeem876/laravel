@@ -12,20 +12,25 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('users', function (Blueprint $table) {
-            $table->id('user_id');
+            $table->id();
             $table->string('user_name');
             $table->string('user_email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
             $table->string('user_address')->nullable();
-            $table->string('password');
+            $table->string('user_password');
             $table->string('user_image')->nullable();
             $table->string('user_phone')->nullable();
+            $table->string('user_experties')->nullable();
+            $table->string('user_qualification')->nullable();
+            $table->string('gender')->nullable();
+            $table->string('user_type')->nullable();    
+            $table->string('service')->nullable();
+            $table->timestamp('email_verified_at')->nullable();
             $table->rememberToken();
-          /*  // $table->foreignId('current_team_id')->nullable();*/
-            $table->string('profile_photo_path', 2048)->nullable();
             $table->timestamps();
         });
     }
+
+
 
     /**
      * Reverse the migrations.
@@ -34,4 +39,5 @@ return new class extends Migration
     {
         Schema::dropIfExists('users');
     }
+
 };
